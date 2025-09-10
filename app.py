@@ -10,7 +10,6 @@ from typing import Literal, List, Dict
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-# GEMINI_API_KEY="AIzaSyAYiMGiLzPFw7bUroTTSFPVwt28GiIo2nA"
 secrets = toml.load("secrets.toml")
 api_key_gemini = secrets["default"]["GEMINI_API_KEY"]
 
