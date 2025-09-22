@@ -1,0 +1,11 @@
+langchain
+langchain-google-genai
+langchain-core
+langchain-community
+langchain-text-splitters
+langgraph
+faiss-cpu
+pydantic
+toml
+pymupdf
+ipython
